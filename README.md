@@ -1,5 +1,6 @@
 # csi3670-openfire
 CSI 3670 - Winter 2019
+
 Openfire Project for Advanced System Admin
 
 Contributors:
