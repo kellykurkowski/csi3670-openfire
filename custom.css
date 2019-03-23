@@ -1,0 +1,30 @@
+/*!
+ * Some custom CSS to make everything better <3
+ * Created by the Triple Threat Team! (CSI 3670 - Winter 2019)
+ * Ben Dreher, Kelly Kurkowski, and Mary Shiner
+ */
+
+/* Side nav */
+.sidenav {
+    background-color: #cc6600;
+    height: 100%;
+}
+
+/* Set what nav list looks like */
+ul.nav {
+    list-style-type: none;
+    margin: 5px;
+}
+/* Header in side nav */
+h2.nav-header {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Shrink nav logo and center */
+img.nav-logo {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
