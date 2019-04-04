@@ -28,14 +28,47 @@
 
             <div class="tab-content">
                 <div id="overview" class="tab-pane fade in active">
-                    <h4>Overview</h4>
-                    <p>We made a thing.</p>
-                    <p><i>Include:
-                        <br>URL fo where someobody could find the service themselves
-                        <br>How does it classify as a software-as-a-service?</i>
-                    </p>
+                    <h3><b>Overview</b></h3>
+                    <div>
+                      <h4><u>Our Project</u></h4>
+                      <p>Our project is based on the Openfire RTC server and the Spark IM application, both provided by
+                      the company, ignite realtime. The Openfire server allows us to administer the Spark IM application, and the IM application
+                      connects to the Openfire server and allows communication with other users via instant message. Both are open source and compatible with Windows, Linux, and Mac OS X. We chose
+                      to install the Openfire software on Windows Server 2016. Service link: <a href="https://www.igniterealtime.org/projects/openfire/" target="_blank">Openfire</a>.</p>
+                    </div>
+                    <div>
+                      <h4><u>Technologies Used</u></h4>
+                      <ul>
+                        <li>Openfire RTC Server Software</li>
+                        <li>Spark IM application</li>
+                        <li>Windows Server 2016</li>
+                        <li>PostgreSQL Database</li>
+                        <li>GitHub</li>
+                        <li>VMware vSpehere Web Client</li>
+                        <li>OU Datacenter VMs</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><u>Server Environment</u></h4>
+                      <ul>
+                        <li>Openfire application is on the 'openfire' VM.</li>
+                          <ul>
+                            <li>Pulls user information from AD. Stores server configuration properties and other info in the database.</li>
+                          </ul>
+                        <li>PostgreSQL database is on the 'openfiredb' VM.</li>
+                        <li>Domain controller is on the 'ad01' VM.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><u>How to Connect to Service</u></h4>
+                      <p>In order to connect to the Openfire RTC server, you must open up the Spark IM application and use Windows authentication
+                        to log in to the client. Then you will be connected to the server.</p>
+                    </div>
+                    <div><h4><u>SaaS</u></h4>
+                      <p>It classifies as software-as-a-service (SaaS), because it offers a central location (hosted by us) where clients connect in order to communicate
+                      with others via instant message.</p>
+                    </div>
                 </div>
-
                 <div id="team" class="tab-pane fade in">
                     <h4>Team Members</h4>
                     <ul class="team">
@@ -44,24 +77,27 @@
                         <li><b>Mary Shiner:</b> *insert role*</li>
                     </ul>
                 </div>
-                
+
                 <div id="demo" class="tab-pane fade in">
                     <h4>Demonstration</h4>
-                    <p><i>Demonstration of project in action. This could be screenshots and/or videos.</i></p>
+                    <video width="1280" height="720" controls>
+                      <source src="vids/Demo.mp4" type="video/mp4">
+                        This browser does not support mp4.
+                    </video>
                 </div>
-                
+
                 <div id="access" class="tab-pane fade in">
                     <h4>How to Access</h4>
                     <p><i>How to access your project</i></p>
                 </div>
-                
+
                 <div id="setup" class="tab-pane fade in">
                     <h4>Steps for Setup</h4>
                     <p><i>The steps one would need to take to setup and run your project on their own.
                         <br>(i.e., what are the steps you took to set it up and run it)</i></p>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
