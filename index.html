@@ -1,5 +1,12 @@
-<html lang="en">
+<!-- CSI 3670 - Winter 2019
+  Project report website
+  Created by:
+    Ben Dreher
+    Kelly Kurkowski
+    Mary Shiner
+ -->
 
+<html lang="en">
 <head>
     <title>Triple Threat // OpenFire Project || CSI 3670 || Winter 2019</title>
     <meta charset="utf-8">
@@ -13,7 +20,9 @@
 <body>
     <div class="container-fluid">
         <div class="row content">
-            <div class="col-md-2 sidenav">
+
+          <!-- Side Navigation -->
+            <div class="col-sm-2 sidenav">
                 <h2 class="nav-header">Triple Threat</h2>
                 <img src="img/openfire.png" class="nav-logo">
                 <ul class="nav nav pills">
@@ -24,11 +33,13 @@
                     <li><a data-toggle="pill" href="#setup" class="btn btn-primary active">Steps for Setup</a></li>
                 </ul><br>
             </div>
-            <br>
 
-            <div class="tab-content">
+            <!-- Main content -->
+            <div class="col-sm-10 tab-content">
+
+                <!-- Overview -->
                 <div id="overview" class="tab-pane fade in active">
-                    <h3><b>Overview</b></h3>
+                    <h3>Overview</h3>
                     <div>
                       <h4><u>Our Project</u></h4>
                       <p>Our project is based on the Openfire RTC server and the Spark IM application, both provided by
@@ -69,8 +80,10 @@
                       with others via instant message.</p>
                     </div>
                 </div>
+
+                <!-- Team Members and their roles -->
                 <div id="team" class="tab-pane fade in">
-                    <h4>Team Members</h4>
+                    <h3>Team Members</h3>
                     <ul class="team">
                         <li><b>Ben Dreher:</b> Openfire Application</li>
                         <li><b>Kelly Kurkowski:</b> Openfire Database</li>
@@ -78,34 +91,35 @@
                     </ul>
                 </div>
 
+                <!-- Demo video -->
                 <div id="demo" class="tab-pane fade in">
-                    <h4>Demonstration</h4>
+                    <h3>Demonstration</h3>
                     <video width="1280" height="720" controls>
                       <source src="vids/Demo.mp4" type="video/mp4">
                         This browser does not support mp4.
                     </video>
                 </div>
 
+                <!-- How to access -->
                 <div id="access" class="tab-pane fade in">
-                    <h4>How to Access</h4>
-                    <p>Domain Controller has to add you on the domain, otherwise you can't it. To access the website use 141.210.25.51.</p>
+                    <h3>How to Access</h3>
+                    <p>Domain Controller has to add you on the domain, otherwise you aren't able to acces it. To access the website use <a target="_blank" href="141.210.25.51">141.210.25.51</a>.</p>
                 </div>
 
+                <!-- Setup -->
                 <div id="setup" class="tab-pane fade in">
-                    <h4>Steps for Setup</h4>
-                    <p>The steps one would need to take to setup and run your project on their own.</p>
-                        <br>(i.e., what are the steps you took to set it up and run it)</p>
-                        <P><a target="_blank" href="documents/Active Directory Setup.pdf">Active Directory Setup</a> </p>
-                        <P><a target="_blank" href="documents/Documentation Mary Server Active Directory.pdf">Documentation Mary Server Active Directory</a> </p>
-                        <P><a target="_blank" href="documents/File Sharing Documentation Mary Shiner.pdf">File Sharing Documentation Mary Shiner</a> </p>
-                        <P><a target="_blank" href="documents/Group Policy Outline.pdf">Group Policy Outline</a> </p>
-                        <P><a target="_blank" href="documents/Group Policy Work.pdf">Group Policy Work</a> </p>
-                        <P><a target="_blank" href="documents/Openfire Setup.pdf">Openfire Setup</a> </p>
-                        <P><a target="_blank" href="documents/Overall Project Direction.pdf">Overall Project Direction</a> </p>
-                        <P><a target="_blank" href="documents/PostgreSQL Database Setup.pdf">PostgreSQL Database Setup</a> </p>
-                        <P><a target="_blank" href="documents/PostgresSQL-DB_Setup-Documentation.pdf">PostgresSQL-DB_Setup-Documentation</a> </p>
-                        <P><a target="_blank" href="documents/Spark Client Demon.pdf">Spark Client Demon</a> </p>
-                        <P><a target="_blank" href="documents/SSO Setup.pdf">SSO Setup</a> </p>
+                    <h3>Steps for Setup</h3>
+                    <p><a target="_blank" href="documents/Active Directory Setup.pdf">Active Directory Setup</a></p>
+                    <p><a target="_blank" href="documents/Documentation Mary Server Active Directory.pdf">Documentation Mary Server Active Directory</a></p>
+                    <p><a target="_blank" href="documents/File Sharing Documentation Mary Shiner.pdf">File Sharing Documentation Mary Shiner</a></p>
+                    <p><a target="_blank" href="documents/Group Policy Outline.pdf">Group Policy Outline</a></p>
+                    <p><a target="_blank" href="documents/Group Policy Work.pdf">Group Policy Work</a></p>
+                    <p><a target="_blank" href="documents/Openfire Setup.pdf">Openfire Setup</a></p>
+                    <p><a target="_blank" href="documents/Overall Project Direction.pdf">Overall Project Direction</a></p>
+                    <p><a target="_blank" href="documents/PostgreSQL Database Setup.pdf">PostgreSQL Database Setup</a></p>
+                    <p><a target="_blank" href="documents/PostgresSQL-DB_Setup-Documentation.pdf">PostgresSQL-DB_Setup-Documentation</a></p>
+                    <p><a target="_blank" href="documents/Spark Client Demon.pdf">Spark Client Demon</a></p>
+                    <p><a target="_blank" href="documents/SSO Setup.pdf">SSO Setup</a></p>
                 </div>
             </div>
 
@@ -113,5 +127,4 @@
     </div>
 
 </body>
-
 </html>

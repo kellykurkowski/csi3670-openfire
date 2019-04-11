@@ -19,6 +19,20 @@ ul.nav {
 h2.nav-header {
     text-align: center;
     color: #ffffff;
+    padding-bottom: 5px;
+}
+
+/* Content headers */
+h3 {
+  font-size: xx-large;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: large;
+  text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 /* Shrink nav logo and center */
@@ -27,4 +41,5 @@ img.nav-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5px;
 }
